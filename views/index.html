@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Get File Metadata</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h2>Get File Metadata</h2>
+        <p>
+          Upload a file; get JSON metadata.
+        </p>
+        <div class="view">
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+            <input id="inputfield" type="file" name="upfile">
+            <input id="button" type="submit" value="Upload">
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          by 
+          David Kuyk
+        </p>
+      </div>
+   </body>
+</html>
