@@ -1,10 +1,8 @@
-/****** Main Styling ******/
-
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #222;
-  background-color: #ECF0F1;
+  font-size: 20px;
+  color: #c9d1d9;
+  background-color: hsl(215, 21%, 15%);
   text-align: center;
 }
 
@@ -18,7 +16,7 @@ body {
 }
 
 a {
-  color: #2574A9;
+  color: #2574a9;
 }
 
 input {
@@ -29,13 +27,15 @@ input {
 
 input#button {
   width: 230px;
+  border-radius: 5px;
 }
 
 .view {
-  position:relative;
+  position: relative;
   margin: auto;
   margin-top: 40px;
-  border: 1px  solid  #aaa;
+  border: 1px solid #aaa;
+  border-radius: 5px;
   padding: 20px;
   width: 60%;
   min-width: 400px;
